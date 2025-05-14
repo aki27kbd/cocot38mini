@@ -16,7 +16,6 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
 |PCB|1||
 |Sensor PCB|1||
 |Sensor (PMW3360)|1||
-|PGA2040|1||
 |Rubber Feet|4||
 |Zirconia Balls (2mm)|3||
 
@@ -29,8 +28,12 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
 |Keyswitch|37 or 38|MX|
 |Keycap|37 or 38|MX|
 |Rotary Encoder + Knob |1|Optional|
-|Spring Pin Header or Pin Header (H2.5mm)|More than 42 pins are necessary||
+|Spring Pin Header or Pin Header (H2.5mm)|At least 20 pins are necessary||
 |25mm Trackball|1||
+|Bearing Roller|3|Optional (Bearing Roller Support)|
+|Tadpole|8|Optional (Tadpole Mount)|
+|Heated Insert Nut|8|Optional (Top Mount)|
+|M2 Screw 3mm|8|Optional (Top Mount)|
 |USB-Type C Cable|1||
 
 
@@ -39,29 +42,16 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
 
   First, please make sure that you have all the parts listed above. If the PCB comes with tabs, break off the tabs and lightly file the cut surfaces.
 
-
-### PGA2040
-
-  Solder spring pin headers (or pin headers) to the PGA2040. In this buildguide spring pin headers are used as example, but you can follow the most steps when you use pin headers.
-
-  Cut spring pin headers with a cutter knife and insert them into the bottom side of the PCB as shown in the picture below. The picture shows 2x8pins and 3x6pins as example. Please make sure you insert them in the correct location.  
-  ![cocot38mini_bg_](/images/bg_pga2040_1.jpg)
-
-  ![cocot38mini_bg_](/images/bg_pga2040_2.jpg)
-
-  Once you insert spring pin headers to the PCB, insert PGA2040 onto it. ***Pay close attention to the orientation of the PGA2040.***  
-  ![cocot38mini_bg_](/images/bg_pga2040_3.jpg)
-
-  Check that the spring pin headers and PGA2040 are not floating, and solder for 34 pins on the PGA2040 side.　　![cocot38mini_bg_](/images/bg_pga2040_4.jpg)
-
-
 ### Firmware
 
-  After soldering the spring pin headers, plug the PGA2040 into the PCB and write the firmware.
+  It is delivered with the default firmware is written. Before starting soldering, make sure you confirm the sensor PCB is recognized as cocot38mini when you plug USB to it.
+
+  If you wish to write your own firmware, please follow the instructions below.
 
   - Press the RESET button (SW39) while holding down the BOOT button (SW40) on the bottom side to enter boot loader mode.
   - The firmware is written by dragging and dropping the [.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/aki27_cocot38mini_vial.uf2) file into the drive named RPI-RP2.  
   ![cocot38mini_bg_](/images/bg_firmware.jpg)  
+
 
   Keymap is editable from [vial](https://vial.rocks/).  
   You can confirm that trackball and LEDs are working correctly with this firmware. You can confirm the trackball move after you assemble the following steps.
@@ -70,30 +60,29 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
 
   The default firmware enables "Auto Mouse Layer", with which you can automatically jump into a specific mouse layer when you move trackball. You can toggle on/off this function with the custom keycode `AM_TOG`.
 
-  The source code is available [here](https://github.com/aki27kbd/vial-qmk/tree/vial/keyboards/aki27/cocot38mini).  
-
+  The source code is available [here](https://github.com/aki27kbd/vial-qmk/tree/vial/keyboards/aki27/cocot38mini).
 
 ### Sensor PCB
 
   Place the mouse sensor (PMW3360) on the sensor board in the orientation shown in the picture. Please make sure to align the ● mark on the silk with the ● mark on the board.
-  ![cocot38mini_bg_](/images/bg_pmw3360_1.jpg)
+  ![cocot38mini_bg_](/images/bg_pmw3360_v2.jpg)
 
   With the sensor pins firmly in place, secure them with tape so that they do not float. Solder 16 pins from the top side. Remove tape from the sensor and attach the lens from the top side.   
-  ![cocot38mini_bg_](/images/bg_pmw3360_2.jpg)
-
-  Solder spring pin headers (or pin headers) to the Sensor PCB. In this buildguide spring pin headers are used as example, but you can follow the most steps when you use pin headers.
-
-  Cut spring pin headers with a cutter knife and insert them into the bottom side of the PCB as shown in the picture below. The picture shows 2x4pins. Please make sure you insert them in the correct location.  
-  ![cocot38mini_bg_](/images/bg_pmw3360_3.jpg)
-
-  Once you insert spring pin headers to the PCB, insert sensor PCB onto it. ***Pay close attention to the orientation of the sensor board.***  
-  ![cocot38mini_bg_](/images/bg_pmw3360_4.jpg)
-
-  Check that the spring pin headers and sensor board are not floating, and solder for 8 pins on the sensor board side.
-  ![cocot38mini_bg_](/images/bg_pmw3360_5.jpg)
+  ![cocot38mini_bg_](/images/bg_pmw3360_v2_2.jpg)
 
   Once you finish soldering, please confirm that mouse cursor moves when you move close to the sensor.
 
+### Spring Pin Header
+
+  In this buildguide spring pin headers are used as example, but you can follow the most steps when you use pin headers.
+
+  Cut spring pin headers with a cutter knife and insert them into the top side of the sensor PCB as shown in the picture below. The picture shows 2x7pins and 1x6pins as example. Please make sure you insert them in the correct location.  
+  ![cocot38mini_bg_](/images/bg_pga2040_1.jpg)
+
+  ![cocot38mini_bg_](/images/bg_pinheader.jpg)
+
+  Once you insert spring pin headers to the PCB, insert main PCB onto it. ***Pay close attention to the orientation of each PCB.***  
+  ![cocot38mini_bg_](/images/bg_pinheader_2.jpg)
 
 ### Rotary Encoder (optional)
 
