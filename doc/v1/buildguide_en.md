@@ -2,7 +2,8 @@
 
 ![cocot38mini_main02](/images/main_02.jpg)
 
-This is a buildguide for cocot38mini.  
+This is a buildguide for cocot38mini v1.  
+For v2 buildguide, refer to the latest documents ([JP](/doc/buildguide.md) / [EN](/doc/buildguide_en.md))
 
 cocot38mini is designed as a more compact version of cocot series, with column-staggered 38 keys, 25mm trackbvall and 3D printed case. To begin with, please make sure you read this buildguide carefully and you have everything you need before you start to asseble.
 
