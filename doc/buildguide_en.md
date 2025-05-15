@@ -11,7 +11,7 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
 ## Parts
 ### Parts Included
 
-|Parts|No.|Notes|
+|Parts|Qty|Notes|
 |---|---|---|
 |PCB|1||
 |Sensor PCB|1||
@@ -22,7 +22,7 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
 
 ### Additional Required Parts
 
-|Parts|No.|Notes|
+|Parts|Qty|Notes|
 |---|---|---|
 |3D Printed Case (Top+Bottom)|1|You can download 3d data to order 3d printing service by yourself|
 |Keyswitch|37 or 38|MX|

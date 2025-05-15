@@ -1,6 +1,6 @@
 # cocot38mini Case Guide
 
-cocot38mini provides various case data depending on mounting methods, ball support styles and ball holding geometries. This guide shows the overview of each method, including pros/cons as well as BOM of it.
+cocot38miniはマウント方式、ボール保持方式、ボール支持方式に応じて様々な種類のケースオプションを用意しています。このガイドにある各種方式の説明を参考に、お好みのケースを作成してください。
 
 ![cocot38mini_main00](/images/main_00.jpg)
 
@@ -9,32 +9,32 @@ cocot38mini provides various case data depending on mounting methods, ball suppo
 ![mounting_method](/images/Mounting_Method.jpg)
 
 ### Integrated
-Plate-integrated mount is the simplest mounting method with fewer parts required to assemble. No additional parts are required to build this case. As the plate is thick and integrated with the case structure, it provides a solid feeling relative to other mounting methods.
+プレートインテグレーテッドマウントは部品点数が最も少ない方式です。プレートの厚みが5mmでかつケース構造と一体化されているので、比較的硬い打鍵感となっています。
 
 |Parts|Qty|Note|
 |---|---|---|
-|3D Printed Top Case|1|Top case named with "_integrated"|
-|3D Printed Bottom Case|1|cocot38mini_v2_bottom.stp|
+|3Dプリントトップケース|1|"_integrated"が含まれるトップケース|
+|3Dプリントボトムケース|1|cocot38mini_v2_bottom.stp|
 
 ### Top Mount
-Top mount is the general mounting method which is also used for some of custom keyboards. Assembly is relatively difficult due to the need of heated insert nuts. Typing softness can be adjusted depending on the plate material.
+トップマウントはプレートをトップケースにねじ止めする方式です。トップケースに熱圧入インサートナットを埋め込む必要があるので、組み立て難易度は比較的高めです。プレートの材質や厚みを変更することで打鍵感を調整することが可能です。
 
 |Parts|Qty|Note|
 |---|---|---|
-|3D Printed Top Case|1|Top case named with "_topmount"|
-|3D Printed Switch Plate|1|Plate named with "_topmount"|
-|3D Printed Bottom Case|1|cocot38mini_v2_bottom.stp|
-|Heated Insert Nut|8|[HFB-2001](https://hirosugi.co.jp/products/B/HFB.html#bx1)|
-|M2 Screw 3mm|8||
+|3Dプリントトップケース|1|"_topmount"が含まれるトップケース|
+|3Dプリントスイッチプレート|1|"_topmount"が含まれるプレート|
+|3Dプリントボトムケース|1|cocot38mini_v2_bottom.stp|
+|熱圧入インサートナット|8|[HFB-2001](https://hirosugi.co.jp/products/B/HFB.html#bx1)|
+|M2ねじ3mm|8||
 
 ### Tadpole Mount
-Tadpole mount is designed considering the balance of simple structure and better typing feel. Assembly is relatively easy as long as tadpoles are available. Typing softness can be adjusted depending on the hardness of tadpoles.
+タッドポールマウントはシンプルな構造と良好な打鍵感のバランスが特徴の方式です。タッドポールの硬さを変更することで打鍵感の調整が可能です。
 
 |Parts|Qty|Note|
 |---|---|---|
-|3D Printed Top Case|1|Top case named with "_tadpole"|
-|3D Printed Switch Plate|1|Plate named with "_tadpole"|
-|3D Printed Bottom Case|1|cocot38mini_v2_tadpole_bottom.stp|
+|3Dプリントトップケース|1|"_tadpole"が含まれるトップケース|
+|3Dプリントスイッチプレート|1|"_tadpole"が含まれるプレート|
+|3Dプリントボトムケース|1|cocot38mini_v2_tadpole_bottom.stp|
 |Tadpole|8|Available at [GEONWORKS](https://geon.works/products/tadpole) or [GREENKEYS](https://shop.green-keys.info/products/tadpole)|
 
 # Ball Supporting Method
@@ -42,39 +42,37 @@ Tadpole mount is designed considering the balance of simple structure and better
 ![ball_support_method](/images/Ball_Support_Method.jpg)
 
 ### Zirconia Balls
-3x Φ2mm zirconia balls support the ball. No additional parts needed. Once zirconia balls are installed, <u>**bearing rollers can not coexist with them**</u>.
+2mmジルコニア球によるボール支持方式です。キットにジルコニア球が含まれている場合、追加のバーツは必要ありません。ジルコニア球を接着剤で固定した場合、ベアリングとの共存はできません。
 
 |Parts|Qty|Note|
 |---|---|---|
-|Zirconia Ball|3|Φ2mm|
+|ジルコニア球|3|Φ2mm|
 
 ### Bearing Rollers
-3x bearing rollers support the ball. Ball handling is smoother with less resistance. Bearing roller dimension is ID: 3mm / OD: 6mm / W: 2.5mm.
+ベアリングローラーによるボール支持方式です。スムーズな操球が可能です。
 
 |Parts|Qty|Note|
 |---|---|---|
-|Bearing Roller|3|ID:3mm x OD:6mm x W:2.5mm|
-|Steel Pin|3|Φ2mm x L:6mm|
-|Silicon Tube|1|ID: 2mm x OD:3mm|
+|ベアリングローラー|3|ID:3mm x OD:6mm x W:2.5mm|
+|ステンレス棒|3|Φ2mm x L:6mm|
+|シリコンチューブ|1|ID: 2mm x OD:3mm|
 
 # Ball Holding Method
 
 ![ball_holding_method](/images/Ball_Holding_Method.jpg)
 
 ### Claw Holder
-Claw holder is integrated with the top case and no additional parts needed. Due to the thin structure, it is <u>**not recommended**</u> printing this model with FDM printers.
+3本のツメでボールが落下しないようにするケースです。FDM方式のプリンターでケースを作成した場合、ツメが破損しやすくなるためお勧めいたしません。
 
 |Parts|Qty|Note|
 |---|---|---|
-|3D Printed Top Case|1|Top case named with "_claw"|
-|Silicon Tube|1|ID: 2mm x OD:3mm|
+|3Dプリントトップケース|1|"_claw"が含まれるトップケース|
 
 ### Magnet Cover
-Magnet cover is an additional part attached to the top case with magnets. Depending on case clearance, glue might be needed to fix magnets.
+マグネットによってボールカバーをトップケースに固定する方式です。容易にボールの取り外しが可能です。
 
 |Parts|Qty|Note|
 |---|---|---|
-|3D Printed Top Case|1|Top case named with "_magnet"|
-|3D Printed Ball Cover|1|cocot38mini_v2_ballcover.stp|
-|Magnet|8|Φ3mm x H:2mm|
-|Silicon Tube|1|ID: 2mm x OD:3mm|
+|3Dプリントトップケース|1|"_magnet"が含まれるトップケース|
+|3Dプリントボールカバー|1|cocot38mini_v2_ballcover.stp|
+|マグネット|8|Φ3mm x H:2mm|
