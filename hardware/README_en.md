@@ -17,7 +17,8 @@ Plate-integrated mount is the simplest mounting method with fewer parts required
 |3D Printed Bottom Case|1|cocot38mini_v2_bottom.stp|
 
 ### Top Mount
-Top mount is the general mounting method which is also used for some of custom keyboards. Assembly is relatively difficult due to the need of heated insert nuts. Typing softness can be adjusted depending on the plate material.
+Top mount is the general mounting method which is also used for some of custom keyboards. Assembly is relatively difficult due to the need of heated insert nuts. Typing softness can be adjusted depending on the plate material.   
+**SLA (Resin) is not suitable for heated insert nut. If you use it as a case material, make sure you fix insert nuts with glue.**
 
 |Parts|Qty|Note|
 |---|---|---|
