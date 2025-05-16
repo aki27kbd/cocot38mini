@@ -49,7 +49,8 @@ Tadpole mount is designed considering the balance of simple structure and better
 |Zirconia Ball|3|Φ2mm|
 
 ### Bearing Rollers
-3x bearing rollers support the ball. Ball handling is smoother with less resistance. Bearing roller dimension is ID: 3mm / OD: 6mm / W: 2.5mm.
+3x bearing rollers support the ball. Ball handling is smoother with less resistance. Bearing roller dimension is ID: 3mm / OD: 6mm / W: 2.5mm.　　　
+Refer to [picot5400](https://github.com/aki27kbd/picot5400/blob/main/doc/buildguide_en.md#ball-case) for assembly.
 
 |Parts|Qty|Note|
 |---|---|---|

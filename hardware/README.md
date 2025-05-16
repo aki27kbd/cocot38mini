@@ -49,7 +49,8 @@ cocot38miniはマウント方式、ボール保持方式、ボール支持方式
 |ジルコニア球|3|Φ2mm|
 
 ### Bearing Rollers
-ベアリングローラーによるボール支持方式です。スムーズな操球が可能です。
+ベアリングローラーによるボール支持方式です。スムーズな操球が可能です。   
+組み立て方法は[picot5400](https://github.com/aki27kbd/picot5400/blob/main/doc/buildguide.md#%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9)を参照してください。
 
 |Parts|Qty|Note|
 |---|---|---|
