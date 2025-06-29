@@ -64,7 +64,7 @@ cocot38miniは、cocotシリーズをベースによりコンパクトさを追�
   コンスルーのはんだ付けが終わったら、PGA2040をPCBに差し込み、ファームウェアの書き込みを行います。
 
   - 裏面のBOOTボタン（SW40）を押しながらRESETボタン（SW39）を押し、ブートローダーモードに入ります。
-  - その状態でRPI-RP2というドライブに[.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/aki27_cocot38mini_vial.uf2)ファイルをドラッグ&ドロップすることでファームが書き込まれます。　　
+  - その状態でRPI-RP2というドライブに[.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/v1/aki27_cocot38mini_vial.uf2)ファイルをドラッグ&ドロップすることでファームが書き込まれます。　　
   ![cocot38mini_bg_](/images/bg_firmware.jpg)  
 
   キーマップは[vial](https://vial.rocks/)から更新可能です。  

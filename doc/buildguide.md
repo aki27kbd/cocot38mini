@@ -52,7 +52,7 @@ cocot38miniは、cocotシリーズをベースによりコンパクトさを追�
   ご自分でファームを書き込む場合、下記手順の通り実行してください。
 
   - センサー基板のBOOTボタンを押しながらRESETボタンを押し、ブートローダーモードに入ります。
-  - その状態でRPI-RP2というドライブに[.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/aki27_cocot38mini_vial.uf2)ファイルをドラッグ&ドロップすることでファームが書き込まれます。　　
+  - その状態でRPI-RP2というドライブに[.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/aki27_cocot38mini_v2_vial.uf2)ファイルをドラッグ&ドロップすることでファームが書き込まれます。　　
 
 
   キーマップは[vial](https://vial.rocks/)から更新可能です。  

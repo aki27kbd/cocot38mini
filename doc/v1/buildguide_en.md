@@ -60,7 +60,7 @@ cocot38mini is designed as a more compact version of cocot series, with column-s
   After soldering the spring pin headers, plug the PGA2040 into the PCB and write the firmware.
 
   - Press the RESET button (SW39) while holding down the BOOT button (SW40) on the bottom side to enter boot loader mode.
-  - The firmware is written by dragging and dropping the [.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/aki27_cocot38mini_vial.uf2) file into the drive named RPI-RP2.  
+  - The firmware is written by dragging and dropping the [.uf2](https://github.com/aki27kbd/cocot38mini/blob/main/firmware/v1/aki27_cocot38mini_vial.uf2) file into the drive named RPI-RP2.  
   ![cocot38mini_bg_](/images/bg_firmware.jpg)  
 
   Keymap is editable from [vial](https://vial.rocks/).  
